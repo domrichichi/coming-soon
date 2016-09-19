@@ -16,6 +16,10 @@ html {
   font: normal 100%;
 }
 
-body {
-	background-image: url("paper.gif");
+.smoke {
+	width:200%;
 }
+
+/*.main-content {
+	background-image: url("../img/smoke-center-green.gif");
+}*/
