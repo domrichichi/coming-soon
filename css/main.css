@@ -16,12 +16,22 @@ html {
   font: normal 100%;
 }
 
-.smoke {
-	width:300%;
-	position: absolute;
-	left:-100px;
+body {
+  margin: 0;
 }
 
-/*.main-content {
-	background-image: url("../img/smoke-center-green.gif");
-}*/
+.clouds {
+	width:100%;
+  margin:0;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  margin: 60px 20px 0 20px;
+}
+
+h1, p {
+  text-align: left;
+}
