@@ -18,9 +18,12 @@ html {
 
 body {
   margin: 0;
+  background-image: url("../img/smoke-small-green.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.clouds {
+.small {
 	width:100%;
   margin:0;
   position: relative;
@@ -29,10 +32,66 @@ body {
 .content {
   position: absolute;
   z-index: 2;
-  margin: 60px 20px 0 20px;
+  margin: 30px 30px 0 30px;
+  max-width: 300px;
 }
 
-h1, p {
+p {
   text-align: left;
   color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+  display: none;
+}
+
+.contact {
+  text-decoration: none;
+  margin-bottom:40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  color: #C2CFBC;
+  font-family: 'Droid Serif', serif;
+  font-style: none;
+}
+
+.title {
+  max-width: 3000px;
+}
+
+.mail {
+  color: D5DBD9;
+}
+
+@media only screen and (min-width: 38.000em) {
+
+  body {
+  margin: 0;
+  background-image: url("../img/smoke-med-green.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 60.000em) {
+
+  body {
+    margin: 0;
+    background-image: url("../img/smoke-large-green.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .content {
+    position: absolute;
+    z-index: 2;
+    margin: 30px 30px 0 60px;
+    max-width: 300px;
+}
+
 }
