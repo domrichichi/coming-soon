@@ -76,7 +76,13 @@ address {
   background-image: url("../img/smoke-med-green.gif");
   background-size: cover;
   background-repeat: no-repeat;
-}
+  }
+
+  p {
+  text-align: left;
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  }
 
 @media only screen and (min-width: 60.000em) {
 
